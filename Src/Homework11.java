@@ -17,7 +17,7 @@ public class Homework11 {
             playerNumbers[j] = random.nextInt(9 - 0) + 0;
         }
         Arrays.sort(playerNumbers);
-        System.out.println("Числа гравця впорядковані за зростанням:                     " + Arrays.toString(playerNumbers));
+        System.out.println("Числа гравця лотереї впорядковані за зростанням:             " + Arrays.toString(playerNumbers));
 
         int coincidence = 0;
         for (int t = 0; t < organizerNumbers.length; t++) {
